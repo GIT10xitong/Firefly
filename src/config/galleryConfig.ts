@@ -34,6 +34,16 @@ export const galleryConfig: GalleryConfig = {
 			password: "123456",
 			passwordHint: "示例密码123456",
 		},
+		{
+			id: "menghuanmeitu-2026",
+			name: "二次元",
+			description:"第一次收藏的图片相册。",
+			location: "P站",
+			date: "2026-09-30",
+			tags: ["二次元", "美图"],
+			password: "1234567890.",
+			passwordHint: "90.",
+		},
 	],
 
 	// 瀑布流最小列宽(px)，浏览器根据容器宽度自动计算列数，默认 240
