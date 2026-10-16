@@ -94,17 +94,17 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			// 动作声音音量 范围0~1，默认 0（静音）
 			volume: 0,
 			// 模型缩放比例
-			scale: 4,
+			scale: 1,
 			// X轴偏移，范围 -2~2，正值向右
-			x: 1,
+			x: 0,
 			// Y轴偏移，范围 -2~2，正值向上
-			y: 1,
+			y: 0,
 		},
 		{
 			// 外部直连模型
 			path: "https://b92934946e27.blob.upstash.io/fense_vts/fense.model3.json",
 			volume: 0,
-			scale: 0.1,
+			scale: 1,
 			x: 0,
 			y: 0,
 		},
@@ -112,7 +112,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 	// 显示位置：bottom-left 或 bottom-right
 	position: "bottom-right" as const,
 	// 画布尺寸（px）
-	size: { width: 200, height: 350 },
+	size: { width: 250, height: 450 },
 	// 主题色，用于菜单、状态条等 UI 元素的背景色，默认 'rgba(96,165,250,0.9)'
 	primaryColor: "var(--l2d-msg-bg)",
 	// 入场/退场动画时长（ms）
