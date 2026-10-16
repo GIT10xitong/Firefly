@@ -104,15 +104,15 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			// 外部直连模型
 			path: "https://b92934946e27.blob.upstash.io/fense_vts/fense.model3.json",
 			volume: 0,
-			scale: 0.6,
-			x: 1,
-			y: 1,
+			scale: 0.35,
+			x: 0,
+			y: -1.5,
 		},
 	],
 	// 显示位置：bottom-left 或 bottom-right
 	position: "bottom-right" as const,
 	// 画布尺寸（px）
-	size: { width: 350, height: 450 },
+	size: { width: 350, height: 650 },
 	// 主题色，用于菜单、状态条等 UI 元素的背景色，默认 'rgba(96,165,250,0.9)'
 	primaryColor: "var(--l2d-msg-bg)",
 	// 入场/退场动画时长（ms）
@@ -160,11 +160,11 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		welcomeMessage: ["你好呀！", "欢迎来到我的世界！"],
 		// 循环提示内容
 		messages: [
-			"有什么需要帮助的吗？",
-			"干嘛点我呀~",
-			"今天也要开心哦！",
+			"有什么需要帮助的吗？ψ(｀∇´)ψ",
+			"干嘛点我呀~(～￣▽￣)～",
+			"今天也要开心哦！🎇",
 			"阿芙洛狄忒在此！",
-			"今天天气真不错呢！",
+			"今天天气真不错呢！🎉",
 			"要不要一起玩游戏？",
 			"记得按时休息哦！",
 		],
