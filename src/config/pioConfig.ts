@@ -94,19 +94,19 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			// 动作声音音量 范围0~1，默认 0（静音）
 			volume: 0,
 			// 模型缩放比例
-			scale: 1,
+			scale: 4,
 			// X轴偏移，范围 -2~2，正值向右
-			x: 0,
+			x: 1,
 			// Y轴偏移，范围 -2~2，正值向上
-			y: 0,
+			y: 1,
 		},
 		{
 			// 外部直连模型
-			path: "https://model.hacxy.cn/cat-black/model.json",
+			path: "https://b92934946e27.blob.upstash.io/fense_vts/fense.model3.json",
 			volume: 0,
-			scale: 1,
-			x: 0,
-			y: 0,
+			scale: 4,
+			x: 1,
+			y: 1,
 		},
 	],
 	// 显示位置：bottom-left 或 bottom-right
@@ -161,6 +161,9 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		// 循环提示内容
 		messages: [
 			"有什么需要帮助的吗？",
+			"干嘛点我呀~",
+			"今天也要开心哦！",
+			"阿芙洛狄忒在此！",
 			"今天天气真不错呢！",
 			"要不要一起玩游戏？",
 			"记得按时休息哦！",
