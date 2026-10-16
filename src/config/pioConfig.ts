@@ -104,7 +104,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			// 外部直连模型
 			path: "https://b92934946e27.blob.upstash.io/fense_vts/fense.model3.json",
 			volume: 0,
-			scale: 3,
+			scale: 0.6,
 			x: 1,
 			y: 1,
 		},
