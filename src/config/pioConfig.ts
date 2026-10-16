@@ -94,7 +94,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			// 动作声音音量 范围0~1，默认 0（静音）
 			volume: 0,
 			// 模型缩放比例
-			scale: 1,
+			scale: 2,
 			// X轴偏移，范围 -2~2，正值向右
 			x: 0,
 			// Y轴偏移，范围 -2~2，正值向上
@@ -102,7 +102,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		},
 		{
 			// 外部直连模型
-			path: "https://b92934946e27.blob.upstash.io/fense_vts/fense.model3.json",
+			path: "",
 			volume: 0,
 			scale: 1,
 			x: 0,
