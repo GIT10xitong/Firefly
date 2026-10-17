@@ -101,20 +101,8 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			y: 0,
 		},
 		{
-			// Live2D模型本地文件路径
-			path: "public/pio/models/live2d/UG/ugofficial.model3.json" ,
-			// 动作声音音量 范围0~1，默认 0（静音）
-			volume: 0,
-			// 模型缩放比例
-			scale: 2,
-			// X轴偏移，范围 -2~2，正值向右
-			x: 0,
-			// Y轴偏移，范围 -2~2，正值向上
-			y: 0,
-		},
-		{
 			// 外部直连模型
-			path: "https://model.hacxy.cn/cat-black/model.json",
+			path: "https://b650352b214c.blob.upstash.io/ugbaofu/ugofficial.model3.json",
 			volume: 0,
 			scale: 1,
 			x: 0,
